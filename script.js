@@ -14,10 +14,12 @@ function firstNonRepeatedChar(str) {
 		let index =str.charCodeAt(i)-97;
 		if(arr[index] === 1){
 			result=str.charAt(i);
+			
 			break;
 		}
 	}
-	console.log(result);
+	return result;
+	
 }
-// const input = prompt("Enter a string");
-// alert(firstNonRepeatedChar(input)); 
+const input = prompt("Enter a string");
+alert(firstNonRepeatedChar(input)); 
