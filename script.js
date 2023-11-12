@@ -8,7 +8,7 @@ function firstNonRepeatedChar(str) {
 		arr[index]++;
 	}
 
-	let result ='';
+	let result =null;
 
 	for(let i=0;i<str.length;i++){
 		let index =str.charCodeAt(i)-97;
